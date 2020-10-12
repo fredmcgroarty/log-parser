@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - spec/spec_helper.rb
+    - Gemfile
+    - Gemfile.lock
+    - Guardfile
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+Style/Documentation:
+  Exclude:
+    - 'lib/parser.rb'
